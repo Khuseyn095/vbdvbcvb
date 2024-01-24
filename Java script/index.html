@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khuseyn</title>
+</head>
+<body>
+
+    <script>
+        function showName() {
+            // Получаем значение введенного имени из поля ввода
+            var userName = document.getElementById("nameInput").value;
+
+            // Выводим имя пользователя в алерте
+            alert("Привет, " + userName + "!");
+        }
+    </script>
+
+    <h1>Введите ваше имя</h1>
+
+    <!-- Форма для ввода имени -->
+    <label for="nameInput">Имя:</label>
+    <input type="text" id="nameInput">
+    
+    <!-- Кнопка для вызова функции и отображения имени -->
+    <button onclick="showName()">Показать имя</button>
+
+</body>
+</html>
